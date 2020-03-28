@@ -1,0 +1,103 @@
+.jumbotron-fluid {
+    background-image: url("../IMG/100_BG_2.jpg");
+    background-size: cover;
+    padding-bottom: 15%;
+    border-bottom: solid black 2px;
+}
+
+h4 {
+    color: white;
+}
+
+h4:hover {
+    background-color: rgba(105, 105, 105, 0.4);
+
+}
+
+.container-forest-BG {
+    background-image: url("../IMG/100_BG_3.jpg");
+    background-size: cover;
+}
+
+.round {
+    border-radius: 50%;
+    max-width: 50%;
+}
+
+.round:hover {
+    opacity: 0.5;
+}
+
+.round2 {
+    border-radius: 50%;
+    max-width: 50%;
+    margin-left: 25%;
+}
+
+.grey-bg {
+    background-color: lightgray;
+}
+
+.smaller {
+    max-width: 200px;
+}
+
+.darkgrey-bg {
+    background-color: dimgray;
+}
+
+.white-text {
+    color: white;
+}
+
+.forest-BG {
+    background-image: url("../IMG/ferostBG.jpg");
+}
+
+a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+@media only screen and (max-width: 600px) {
+    h4 {
+        font-size: 18px;
+    }
+
+    .forest-BG {
+        background-image: url("../IMG/gray.jpg");
+    }
+
+    .smaller {
+        max-width: 150px;
+    }
+}
+
+@media only screen and (min-width: 1442px) {
+
+    .forest-BG {
+        background-image: url("../IMG/gray.jpg");
+    }
+}
