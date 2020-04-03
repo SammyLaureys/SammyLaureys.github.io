@@ -52,6 +52,7 @@ h4:hover {
 
 .forest-BG {
     background-image: url("../IMG/ferostBG.jpg");
+    background-size: cover;
 }
 
 a:hover {
@@ -92,12 +93,5 @@ a:hover {
 
     .smaller {
         max-width: 150px;
-    }
-}
-
-@media only screen and (min-width: 1442px) {
-
-    .forest-BG {
-        background-image: url("../IMG/gray.jpg");
     }
 }
